@@ -1,6 +1,6 @@
-#MYAPP - TODOKU
+# MYAPP - TODOKU
 
-##CARA MENGGUNAKAN APLIKASI
+## CARA MENGGUNAKAN APLIKASI
 
 ```
 Lakukan npm install pada folder server.
@@ -9,9 +9,9 @@ Jalankan perintah npm run serve pada terminal *(buka terminal pada folder client
 Jalankan mongod pada terminal, atau bisa menggunakan database MLAB, Keteranangan ada pada file .env
 ```
 
-##SERVER SIDE 
+## SERVER SIDE 
 
-###USER
+### USER
 
 |           Route           |  HTTP  |                         Description                        |
 |---------------------------|--------|------------------------------------------------------------|
@@ -19,7 +19,7 @@ Jalankan mongod pada terminal, atau bisa menggunakan database MLAB, Keteranangan
 | /users/signin             | POST   | Login user manul                                           |
 | /users/signinGoogle       | POST   | Login user melalui google                                  |
 
-###TODO
+### TODO
 
 |           Route           |  HTTP  |                         Description                        |
 |---------------------------|--------|------------------------------------------------------------|
